@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- META TAGS -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- TITLE -->
+    <title> fruit</title>
+
+    <!-- REMIX ICON (ICON LIBRARY) -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+
+    <!-- CSS LINK -->
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+  <body>
+    <!-- NAVIGATION BAR -->
+
+    <nav class="navbar">
+      <div class="logo">
+        <img src="images/logo.png" alt="Logo" />
+        <span
+          >design <br />
+          synth</span
+        >
+      </div>
+
+      <ul class="nav-links">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Fruits</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+      <div class="nav-linksMin" style="display: none">
+        <button></button>
+        <ul class="nav-links">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Fruits</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- MAIN CONTAINER -->
+
+    <div class="container">
+      <div class="left">
+        <hr />
+        <div class="vertical-text">sweet cherry</div>
+        <hr />
+      </div>
+
+      <div class="grade">
+        <p class="select-text">select a fruit:</p>
+        <p class="fruit active" data-fruit="cherry">Cherry</p>
+        <p class="fruit" data-fruit="orange">orange</p>
+        <p class="fruit" data-fruit="blueberry">blueberry</p>
+        <p class="fruit" data-fruit="kiwi">kiwi</p>
+        <p class="fruit" data-fruit="strawberry">strawberry</p>
+      </div>
+
+      <div class="ctr-container">
+        <div class="circle circle1"></div>
+        <div class="circle circle2"></div>
+        <div class="circle circle3"></div>
+        <div class="circle circle4"></div>
+      </div>
+
+      <div class="center">
+        <h1 class="fresh">Fresh</h1>
+        <img src="images/img1.png" alt="center image" />
+        <h1 class="cherry">Cherry</h1>
+      </div>
+
+      <div class="right">
+        <div class="price">$5.45</div>
+        <div class="weight-selector">
+          <span>-</span>
+          <span>1KG</span>
+          <span>+</span>
+        </div>
+        <button class="cart-btn">
+          <i class="ri-shopping-cart-2-line"></i>
+          add to cart
+        </button>
+      </div>
+    </div>
+
+
+
+  
+   
+
+    <!-- JAVASCRIPT LINK -->
+    <script type="text/javascript" src="script.js"></script>
+  </body>
+</html>
